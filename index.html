@@ -2,6 +2,8 @@
   <head>
     <title>Learning CSS</title>
     <style>
+      body {background-color: lightsteelblue;}
+
       h1 {
         color: red;
       }
@@ -32,6 +34,17 @@
         border: 1px solid; width: 50%; border-color: blueviolet; color: maroon; background-color: darkgray;
       }
 
+      h2 { width: 400px; height: 100px;  animation-name: cats; animation-duration: 30s;}
+
+      @keyframes cats{
+        from{background-color: pink;}
+        to{background-color: darkorange;
+        background-color: brown;
+        background-color: chartreuse;
+        background-color: crimson; 
+        background-color: darkmagenta;}
+      }
+
       header {text-align: center; background-color: azure; text-underline-position: below; font-size: 30px;}
 
       nav {font-style: italic; color: crimson;}
@@ -39,6 +52,7 @@
       footer{ font-size: x-small;}
 
       main { font-size: 30px;}
+
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
