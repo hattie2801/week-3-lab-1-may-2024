@@ -7,17 +7,18 @@
       }
 
       p {
-        margin: 32px;
+        margin: 32px; color: rgb(37, 29, 18);
       }
 
       button {
+        background-color: rgb(206, 247, 206); 
       }
 
       h2 {
         color: gold;
       }
 
-      ol {list-style-type: square;}
+      ol {list-style-type: square; color: rgb(20, 220, 103);}
 
       /* TODO: add styles for header  */
       
@@ -26,6 +27,16 @@
       .paragraph-1 {
         background-color: pink;
       }
+
+      table, th, td {
+        border: 1px solid; width: 50%; border-color: blueviolet; color: maroon; background-color: darkgray;
+      }
+
+      header {text-align: center; background-color: azure; text-underline-position: below; font-size: 30px;}
+
+      nav {font-style: italic; color: crimson;}
+
+      footer{}
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -35,7 +46,7 @@
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="color: rgb(83, 38, 141);">
+      <p class="paragraph-1" style="color: rgb(83, 18, 168);">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -43,7 +54,7 @@
         aliquam etiam.    
       </p>
     
-      <p style="background-color: darkgray; color: beige;">
+      <p style="background-color: darkgray;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -55,7 +66,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="border-style: outset; padding:25px; background-color: cyan; color: coral;">
+      <p style="border-style: outset; padding:25px; background-color: cyan">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -77,23 +88,23 @@
     
       <table>
         <tr>
-          <th style="color: blue;">Item</th>
-          <th style="color: crimson;">Price</th>
+          <th style="text-align: center; font-size: x-large;">Item</th>
+          <th style="text-align: center; font-size: x-large;">Price</th>
         </tr><br>
 
         <tr>
-          <td style="color: fuchsia;">hotwheels car</td>
-          <td style="color: fuchsia;">$4.99</td>
+          <td style="text-align: center; font-size: medium;">Hotwheels car</td>
+          <td style="text-align: center; font-size: medium;">$4.99</td>
         </tr>
         <tr>
-          <td style="color: coral;">
+          <td style="text-align: center; font-size: medium;">
             Cabbage patch doll
           </td>
-          <td style="color: blueviolet;">$1.99</td>
+          <td style="text-align: center; font-size: medium;">$1.99</td>
         </tr>
       </table><br>
     
-      <button style="color: blueviolet;">Buy Now!</button>
+      <button style="padding: 20px 35px; font-size: 20px;">Buy Now!</button>
     </main><br>
   
     <nav>
@@ -102,7 +113,7 @@
       <a> GALLERY </a>
     </nav>
     
-    <footer>
+    <footer>Prices are subject to change.
     </footer>
 
     <script src="./script.js"></script>
